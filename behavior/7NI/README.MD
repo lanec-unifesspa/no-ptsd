@@ -9,4 +9,5 @@ The following files can be found in this folder:
 * [R script to reproduce the statistical analyses of the data](https://github.com/lanec-unifesspa/no-ptsd/blob/main/behavior/7NI/behavpharm7NI.R) 
 
 **Project coordinator**: [Monica Lima-Maximino](https://orcid.org/0000-0002-9816-3443)
+
 *Project supported by Conselho Nacional de Desenvolvimento Científico e Tecnológico (Grant no. 423735/2016-0)*
