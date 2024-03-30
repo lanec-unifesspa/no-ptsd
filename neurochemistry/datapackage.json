@@ -1,0 +1,116 @@
+{
+   "name":"neurochemistry_TDS",
+   "title":"Data on extracellular glutamate and tissue nitrite levels after CAS exposure in zebrafish forebrains",
+   "id":"http://dx.doi.org/ ",
+   "profile":"tabular-data-package",
+   "description":"Dataset from accompanying paper on the roles of the nitric oxide pathway on time-dependent sensitization in zebrafish",
+   "contributors":[
+      {
+         "title":"Monica Lima Maximino",         "title":"Wilker Leite",         "title":"Caio Maximino"
+      }
+   ],
+   "resources":[
+      {
+         "path":"https://raw.githubusercontent.com/lanec-unifesspa/no-ptsd/main/neurochemistry/glu-timecourse.csv",
+         "schema":{
+            "fields":[
+               {
+                  "description":"Time point",
+                  "name":"Time",
+                  "type":"string"
+               },
+               {
+                  "description":"Treatment group",
+                  "name":"Treatment",
+                  "type":"string"
+               },
+               {
+                  "description":"ECF glutamate levels forebrain (ug mg protein)",
+                  "name":"Glu",
+                  "type":"numeric"
+               },
+              
+            ]
+         }
+      }
+      {
+         "path":"https://raw.githubusercontent.com/lanec-unifesspa/no-ptsd/main/neurochemistry/NOX-timecourse.csv",
+         "schema":{
+            "fields":[
+               {
+                  "description":"Time point",
+                  "name":"Time",
+                  "type":"string"
+               },
+               {
+                  "description":"Treatment group",
+                  "name":"Treatment",
+                  "type":"string"
+               },
+               {
+                  "description":"Nitrite levels in forebrain (nmol mg protein)",
+                  "name":"nitrite",
+                  "type":"numeric"
+               },
+              
+            ]
+         }
+      }
+      {
+         "path":"https://raw.githubusercontent.com/lanec-unifesspa/no-ptsd/main/neurochemistry/NOX_forebrain.csv",
+         "schema":{
+            "fields":[
+               {
+                  "description":"Treatment group",
+                  "name":"Treatment",
+                  "type":"string"
+               },
+               {
+                  "description":"Drug group",
+                  "name":"Drug",
+                  "type":"string"
+               },
+               {
+                  "description":"Nitrite levels in forebrain (nmol mg protein) 30 min after CAS",
+                  "name":"t30min",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Nitrite levels in forebrain (nmol mg protein) 90 min after CAS",
+                  "name":"t90min",
+                  "type":"numeric"
+               },
+              
+            ]
+         }
+      }
+      {
+         "path":"https://raw.githubusercontent.com/lanec-unifesspa/no-ptsd/main/neurochemistry/NOX_headkidney.csv",
+         "schema":{
+            "fields":[
+               {
+                  "description":"Treatment group",
+                  "name":"Treatment",
+                  "type":"string"
+               },
+               {
+                  "description":"Drug group",
+                  "name":"Drug",
+                  "type":"string"
+               },
+               {
+                  "description":"Nitrite levels in head kidney (nmol mg protein) 30 min after CAS",
+                  "name":"t30min",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Nitrite levels in head kidney (nmol mg protein) 90 min after CAS",
+                  "name":"t90min",
+                  "type":"numeric"
+               },
+              
+            ]
+         }
+      }
+   ]
+}
