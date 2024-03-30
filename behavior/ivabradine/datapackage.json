@@ -1,0 +1,107 @@
+{
+   "name":"AG_TDS",
+   "title":"Data on the effects of ivabradine on time-dependent sensitization in zebrafish",
+   "id":"https://www.biorxiv.org/content/10.1101/2024.03.27.586937v1",
+   "profile":"tabular-data-package",
+   "description":"Dataset from accompanying paper on the roles of the nitric oxide pathway on time-dependent sensitization in zebrafish",
+   "contributors":[
+      {
+         "title":"Monica Lima Maximino",         "title":"Amanda Gabriele Oliveira Xavier",         "title":"Larissa Mota de Freitas",         "title":"Caio Maximino"
+      }
+   ],
+   "resources":[
+      {
+         "path":"https://github.com/lanec-unifesspa/no-ptsd/blob/main/behavior/ivabradine/IVA30.csv",
+         "schema":{
+            "fields":[
+               {
+                  "description":"Treatment group (water: CTRL; alarm substance: CAS)",
+                  "name":"Treatment",
+                  "type":"string"
+               },
+               {
+                  "description":"Drug (vehicle: VEH; ivabradine: IVA",
+                  "name":"Drug",
+                  "type":"string"
+               },
+               {
+                  "description":"Time on the white compartment (s)",
+                  "name":"Time_on_white",
+                  "type":"numeric"
+               },
+              {
+                  "description":"Entries in the white compartment (N)",
+                  "name":"Entries",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Average entry duration (s)",
+                  "name":"Duration",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Risk assessment (N)",
+                  "name":"Risk_assessment_N",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Erratic swimming (N)",
+                  "name":"Erratic_swimming_N",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Thigmotaxis (%)",
+                  "name":"Thigmotaxis_Percent",
+                  "type":"numeric"
+               },
+            ]
+         }
+      }
+      {
+         "path":"https://github.com/lanec-unifesspa/no-ptsd/tree/main/behavior/ivabradine/IVA90.csv",
+         "schema":{
+            "fields":[
+               {
+                  "description":"Treatment group (water: CTRL; alarm substance: CAS)",
+                  "name":"Treatment",
+                  "type":"string"
+               },
+               {
+                  "description":"Drug (vehicle: VEH; ivabradine: IVA",
+                  "name":"Drug",
+                  "type":"string"
+               },
+               {
+                  "description":"Time on the white compartment (s)",
+                  "name":"Time_on_white",
+                  "type":"numeric"
+               },
+              {
+                  "description":"Entries in the white compartment (N)",
+                  "name":"Entries",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Average entry duration (s)",
+                  "name":"Duration",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Risk assessment (N)",
+                  "name":"Risk_assessment_N",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Erratic swimming (N)",
+                  "name":"Erratic_swimming_N",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Thigmotaxis (%)",
+                  "name":"Thigmotaxis_Percent",
+                  "type":"numeric"
+               },
+            ]
+         }
+      }
+}
