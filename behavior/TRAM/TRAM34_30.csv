@@ -1,4 +1,4 @@
-"Treatment","Drug","Time_on_white","Entries","Duration","Erratic_swimming_N","Risk_Assessment_N","Freezing","Thigmotaxis_Perent"
+"Treatment","Drug","Time_on_white","Entries","Duration","Erratic_swimming_N","Risk_Assessment_N","Freezing","Thigmotaxis_Percent"
 "CTRL","VEH",73.13,54,1.3542592592592593,7,5,1,3.02083993279631
 "CTRL","VEH",219.34,80,2.74175,4,9,1,7.43771406685216
 "CTRL","VEH",112.05,99,1.1318181818181818,9,8,1,11.6850500549193
