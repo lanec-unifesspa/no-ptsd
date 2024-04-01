@@ -41,12 +41,12 @@
                },
                {
                   "description":"Risk assessment (N)",
-                  "name":"Risk_assessment_N",
+                  "name":"Risk_Assessment",
                   "type":"numeric"
                },
                {
                   "description":"Erratic swimming (N)",
-                  "name":"Erratic_swimming_N",
+                  "name":"Erratic_Swimming",
                   "type":"numeric"
                },
                {
@@ -88,12 +88,12 @@
                },
                {
                   "description":"Risk assessment (N)",
-                  "name":"Risk_assessment_N",
+                  "name":"Risk_assessment",
                   "type":"numeric"
                },
                {
                   "description":"Erratic swimming (N)",
-                  "name":"Erratic_swimming_N",
+                  "name":"Erratic_Swimming",
                   "type":"numeric"
                },
                {
