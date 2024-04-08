@@ -25,7 +25,7 @@ if(!require(dabestr)){
 }
 
 #Load dataset
-X7NI <- read_csv("https://raw.githubusercontent.com/lanec-unifesspa/no-ptsd/main/behavior/7NI.csv", col_types = cols(Treatment = col_factor(levels = c("CTRL", "CAS")), Drug = col_factor(levels = c("VEH", "7NI"))))
+X7NI <- read_csv("https://raw.githubusercontent.com/lanec-unifesspa/no-ptsd/main/behavior/7NI/7NI.csv", col_types = cols(Treatment = col_factor(levels = c("CTRL", "CAS")), Drug = col_factor(levels = c("VEH", "7NI"))))
 View(X7NI)
 
 #Reorganize data for plotting
